@@ -1,0 +1,46 @@
+<body>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/css/bootstrap.min.css"
+        rel="stylesheet" type="text/css" />
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <link href="bootstrap-multiselect/dist/css/bootstrap-multiselect.css" rel="stylesheet" type="text/css" />
+    <script src="bootstrap-multiselect/dist/js/bootstrap-multiselect.js" type="text/javascript"></script>
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        $(function () {
+            $('[id=lstFruits]').multiselect({
+                includeSelectAllOption: true,
+                selectAllNumber: false,
+                nonSelectedText: '未選択',
+                allSelectedText: '全選択',
+                nSelectedText: 'つ選択中',
+                enableFiltering: true,
+            });
+        });
+    </script>
+
+    <div class="sectons">
+      <p class="Section_name">✔ Sectoin1</p>
+      <select id="lstFruits" multiple="multiple">
+          <option value="cheese" selected>チーズ</option>
+          <option value="tomatoes" selected>Tomatoes</option>
+          <option value="mozarella" selected>Mozzarella</option>
+          <option value="mushrooms" selected>Mushrooms</option>
+          <option value="pepperoni" selected>Pepperoni</option>
+          <option value="onions" selected>Onions</option>
+      </select>
+    </div>
+
+    <div class="sectons">
+      <p class="Section_name">✔ Sectoin2</p>
+      <select id="lstFruits" multiple="multiple">
+          <option value="cheese" selected>チーズ</option>
+          <option value="tomatoes" selected>Tomatoes</option>
+          <option value="mozarella" selected>Mozzarella</option>
+          <option value="mushrooms" selected>Mushrooms</option>
+          <option value="pepperoni" selected>Pepperoni</option>
+          <option value="onions" selected>Onions</option>
+      </select>
+    </div>
+
+</body>

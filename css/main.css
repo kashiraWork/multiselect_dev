@@ -1,0 +1,17 @@
+
+.sectons
+{
+  float: left;
+  margin-left: 20px;
+}
+.Section_name
+{
+  color: #ff8000;
+  font-size: 20px;
+
+}
+
+#lstFruits
+{
+  padding: 10px;
+}

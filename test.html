@@ -1,0 +1,47 @@
+<body>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/css/bootstrap.min.css"
+        rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <link href="http://cdn.rawgit.com/davidstutz/bootstrap-multiselect/master/dist/css/bootstrap-multiselect.css"
+        rel="stylesheet" type="text/css" />
+    <script src="http://cdn.rawgit.com/davidstutz/bootstrap-multiselect/master/dist/js/bootstrap-multiselect.js"
+        type="text/javascript"></script>
+    <script src="bootstrap-multiselect_mod.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            $('[id=lstFruits]').multiselect({
+                //selectAllText: ' 全選択',
+                includeSelectAllOption: true,
+                nSelectedText: 'Cation1',
+                selectAllNumber: false,
+                nonSelectedText: 'Cation1',
+                allSelectedText: 'Cation1(全選択)',
+                numberDisplayed: 1,
+                enableFiltering: true,
+            });
+        });
+    </script>
+
+    <p><font color=#ff800>✔ Sectoin1</font></p>
+    <select id="lstFruits" multiple="multiple">
+        <option value="cheese" selected>チーズ</option>
+        <option value="tomatoes" selected>Tomatoes</option>
+        <option value="mozarella" selected>Mozzarella</option>
+        <option value="mushrooms" selected>Mushrooms</option>
+        <option value="pepperoni" selected>Pepperoni</option>
+        <option value="onions" selected>Onions</option>
+    </select>
+
+    <p><font color=#ff800>✔ Sectoin2</font></p>
+    <select id="lstFruits" multiple="multiple">
+        <option value="cheese" selected>チーズ</option>
+        <option value="tomatoes" selected>Tomatoes</option>
+        <option value="mozarella" selected>Mozzarella</option>
+        <option value="mushrooms" selected>Mushrooms</option>
+        <option value="pepperoni" selected>Pepperoni</option>
+        <option value="onions" selected>Onions</option>
+    </select>
+
+</body>
